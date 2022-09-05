@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1703.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Innovecs.API", "Innovecs.API\Innovecs.API.csproj", "{3514E206-A8B7-471E-AA71-FA7FB5ED75A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Innovecs.Domain", "Innovecs.Domain\Innovecs.Domain.csproj", "{B50FE8B4-7120-476D-90A1-45518F5EC93F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3514E206-A8B7-471E-AA71-FA7FB5ED75A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3514E206-A8B7-471E-AA71-FA7FB5ED75A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3514E206-A8B7-471E-AA71-FA7FB5ED75A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3514E206-A8B7-471E-AA71-FA7FB5ED75A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B50FE8B4-7120-476D-90A1-45518F5EC93F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B50FE8B4-7120-476D-90A1-45518F5EC93F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B50FE8B4-7120-476D-90A1-45518F5EC93F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B50FE8B4-7120-476D-90A1-45518F5EC93F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {28C3A4D8-EEDC-4906-A406-1694585053D3}
+	EndGlobalSection
+EndGlobal
