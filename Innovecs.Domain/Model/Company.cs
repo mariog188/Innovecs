@@ -8,13 +8,9 @@ namespace Innovecs.Domain.Model
 
         public string DestinationAddress { get; set; }
 
-        public  Dimension CartonDimension { get; set; }
-
         public string ContactAddress { get; set; }
 
         public string WareHouseAddress { get; set; }
-
-        public Dimension PackageDimension { get; set; }
 
         public string Consignee { get; set; }
 

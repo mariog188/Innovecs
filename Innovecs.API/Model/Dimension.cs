@@ -1,5 +1,5 @@
 ﻿using System;
-namespace Innovecs.Domain.Model
+namespace Innovecs.API.Model
 {
     public class Dimension
     {
