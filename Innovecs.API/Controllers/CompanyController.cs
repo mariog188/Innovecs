@@ -18,6 +18,7 @@ namespace Innovecs.API.Controllers
             _companyService = companyService;
         }
 
+        [HttpGet]
         public async Task<IActionResult> GetTotal([FromBody] CompanyTotalRequest companyTotalRequest)
         {
             try
@@ -31,6 +32,7 @@ namespace Innovecs.API.Controllers
             }
         }
 
+        [HttpGet]
         public async Task<IActionResult> GetAmount([FromBody] CompanyAmountRequest companyAmountRequest)
         {
             try
@@ -47,6 +49,7 @@ namespace Innovecs.API.Controllers
 
         [Consumes("application/xml")]
         [Produces("application/xml")]
+        [HttpGet]
         public async Task<IActionResult> GetQuote([FromBody] CompanyQuoteRequest companyQuoteRequest)
         {
             try
