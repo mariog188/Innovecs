@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Innovecs.API", "Innovecs.AP
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Innovecs.Domain", "Innovecs.Domain\Innovecs.Domain.csproj", "{B50FE8B4-7120-476D-90A1-45518F5EC93F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Innovecs.UnitTest", "Innovecs.UnitTest\Innovecs.UnitTest.csproj", "{CA3AA6D8-F26F-41A5-B7E2-68221FF4A04F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Innoves.IntegrationTest", "Innoves.IntegrationTest\Innoves.IntegrationTest.csproj", "{24DF4971-1820-4F1A-BDF2-760E302C0C84}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{B50FE8B4-7120-476D-90A1-45518F5EC93F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B50FE8B4-7120-476D-90A1-45518F5EC93F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B50FE8B4-7120-476D-90A1-45518F5EC93F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA3AA6D8-F26F-41A5-B7E2-68221FF4A04F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA3AA6D8-F26F-41A5-B7E2-68221FF4A04F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA3AA6D8-F26F-41A5-B7E2-68221FF4A04F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA3AA6D8-F26F-41A5-B7E2-68221FF4A04F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24DF4971-1820-4F1A-BDF2-760E302C0C84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24DF4971-1820-4F1A-BDF2-760E302C0C84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24DF4971-1820-4F1A-BDF2-760E302C0C84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24DF4971-1820-4F1A-BDF2-760E302C0C84}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
